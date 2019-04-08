@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="euraka-rabbitmq" />
+        <module name="eureka-client" />
+        <module name="eureka-feign" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-ribbon-hystrix" />
+        <module name="eureka-server" />
+        <module name="eureka-server-7071" />
+        <module name="eureka-server-gky" />
+        <module name="eureka-service-a" />
+        <module name="eureka-service-b" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="ribbon-consumer" />
+        <module name="springcloudpractice" />
+        <module name="zuul-cas-7073" />
+        <module name="zuul-eureka-7073" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="euraka-rabbitmq" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-feign" options="-parameters" />
+      <module name="eureka-ribbon" options="-parameters" />
+      <module name="eureka-ribbon-hystrix" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-7071" options="-parameters" />
+      <module name="eureka-server-gky" options="-parameters" />
+      <module name="eureka-service-a" options="-parameters" />
+      <module name="eureka-service-b" options="-parameters" />
+      <module name="microservice-consumer-movie-feign" options="-parameters" />
+      <module name="ribbon-consumer" options="-parameters" />
+      <module name="zuul-cas-7073" options="-parameters" />
+      <module name="zuul-eureka-7073" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+server:
+  port: 2020
+spring:
+  application:
+    name: rabbitmq-hello
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    # 开启发送确认
+    publisher-confirms: true
+    # 开启发送失败退回
+    publisher-returns: true
+    listener:
+      direct:
+        retry:
+          enabled: true #消费者端的重试
+      simple:
+        retry:
+          enabled: true #消费者端的重试
+    template:
+      reply-timeout: 10000 #超时时间
+      retry:
+        enabled: true  #设置为true的时候RabbitTemplate(生产端)能够实现重试
+

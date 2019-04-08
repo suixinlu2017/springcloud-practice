@@ -1,0 +1,96 @@
+2019-04-05 09:03:10.638 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4da85c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 09:03:10.917 [main] INFO  com.suixinlu.zuulcas7073.ZuulCas7073Application - No active profile set, falling back to default profiles: default
+2019-04-05 09:03:11.644 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=f2876c19-6ddd-3d8f-888e-c692d84211cd
+2019-04-05 09:03:11.856 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4da85c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 09:03:12.107 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7073 (http)
+2019-04-05 09:03:12.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7073"]
+2019-04-05 09:03:12.122 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-05 09:03:12.122 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-05 09:03:12.234 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-05 09:03:12.234 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1309 ms
+2019-04-05 09:03:12.319 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-05 09:03:12.326 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@28369db0
+2019-04-05 09:03:13.243 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-05 09:03:13.349 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 09:03:13.642 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@299b9851, org.springframework.security.web.context.SecurityContextPersistenceFilter@251d7fdd, org.springframework.security.web.header.HeaderWriterFilter@46394f65, org.springframework.security.web.authentication.logout.LogoutFilter@1a14fdf0, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@191a0351, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b5aa65b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62b6c045, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67328bcb, org.springframework.security.web.session.SessionManagementFilter@26be9a6, org.springframework.security.web.access.ExceptionTranslationFilter@21edd891, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1511d157]
+2019-04-05 09:03:13.690 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-05 09:03:14.021 [main] INFO  org.springframework.cloud.netflix.zuul.ZuulFilterInitializer - Starting filter initializer
+2019-04-05 09:03:14.073 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-04-05 09:03:14.098 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-05 09:03:14.134 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-05 09:03:14.134 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-05 09:03:14.214 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-05 09:03:14.214 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-05 09:03:14.351 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-05 09:03:14.473 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-05 09:03:14.576 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-05 09:03:14.577 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-05 09:03:14.579 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-05 09:03:14.581 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554426194581 with initial instances count: 1
+2019-04-05 09:03:14.583 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application ZUUL-CAS with eureka with status UP
+2019-04-05 09:03:14.583 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554426194583, current=UP, previous=STARTING]
+2019-04-05 09:03:14.585 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ZUUL-CAS/DEEP-2019XGABHZ:zuul-cas:7073: registering service...
+2019-04-05 09:03:14.603 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7073"]
+2019-04-05 09:03:14.615 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ZUUL-CAS/DEEP-2019XGABHZ:zuul-cas:7073 - registration status: 204
+2019-04-05 09:03:14.623 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7073 (http) with context path ''
+2019-04-05 09:03:14.624 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 7073
+2019-04-05 09:03:14.625 [main] INFO  com.suixinlu.zuulcas7073.ZuulCas7073Application - Started ZuulCas7073Application in 4.607 seconds (JVM running for 5.614)
+2019-04-05 09:03:15.253 [RMI TCP Connection(2)-172.20.10.11] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 09:03:15.253 [RMI TCP Connection(2)-172.20.10.11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-05 09:03:15.259 [RMI TCP Connection(2)-172.20.10.11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-04-05 09:08:14.475 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-05 09:13:14.476 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-05 09:18:14.477 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-05 09:21:38.498 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fb8dcd06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 09:21:38.765 [main] INFO  com.suixinlu.zuulcas7073.ZuulCas7073Application - No active profile set, falling back to default profiles: default
+2019-04-05 09:21:39.429 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=f2876c19-6ddd-3d8f-888e-c692d84211cd
+2019-04-05 09:21:39.567 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fb8dcd06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-05 09:21:39.822 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7073 (http)
+2019-04-05 09:21:39.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7073"]
+2019-04-05 09:21:39.837 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-05 09:21:39.837 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-05 09:21:39.951 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-05 09:21:39.951 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1177 ms
+2019-04-05 09:21:40.038 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-05 09:21:40.044 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3811510
+2019-04-05 09:21:40.825 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-05 09:21:40.926 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-05 09:21:41.210 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6af310c7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a50c746, org.springframework.security.web.header.HeaderWriterFilter@18dcb8a7, org.springframework.security.web.authentication.logout.LogoutFilter@3db65c0d, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@4aed311e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4966bab1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17c0274c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c38cd16, org.springframework.security.web.session.SessionManagementFilter@5a14e60d, org.springframework.security.web.access.ExceptionTranslationFilter@65eb3597, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@706f6d26]
+2019-04-05 09:21:41.259 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-04-05 09:21:41.572 [main] INFO  org.springframework.cloud.netflix.zuul.ZuulFilterInitializer - Starting filter initializer
+2019-04-05 09:21:41.623 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-04-05 09:21:41.649 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-04-05 09:21:41.685 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-04-05 09:21:41.685 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-04-05 09:21:41.764 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-04-05 09:21:41.764 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-04-05 09:21:41.896 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-04-05 09:21:42.006 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-04-05 09:21:42.105 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-04-05 09:21:42.107 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-04-05 09:21:42.108 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-05 09:21:42.111 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1554427302110 with initial instances count: 1
+2019-04-05 09:21:42.112 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application ZUUL-CAS with eureka with status UP
+2019-04-05 09:21:42.113 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1554427302113, current=UP, previous=STARTING]
+2019-04-05 09:21:42.114 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ZUUL-CAS/DEEP-2019XGABHZ:zuul-cas:7073: registering service...
+2019-04-05 09:21:42.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7073"]
+2019-04-05 09:21:42.142 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_ZUUL-CAS/DEEP-2019XGABHZ:zuul-cas:7073 - registration status: 204
+2019-04-05 09:21:42.148 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7073 (http) with context path ''
+2019-04-05 09:21:42.149 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 7073
+2019-04-05 09:21:42.150 [main] INFO  com.suixinlu.zuulcas7073.ZuulCas7073Application - Started ZuulCas7073Application in 4.355 seconds (JVM running for 5.106)
+2019-04-05 09:21:42.391 [RMI TCP Connection(2)-172.20.10.11] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-05 09:21:42.391 [RMI TCP Connection(2)-172.20.10.11] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-05 09:21:42.398 [RMI TCP Connection(2)-172.20.10.11] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-04-05 09:26:42.008 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

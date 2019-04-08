@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/suixinlu2018/SpringBoot-Learning.git
+          search-paths: Chapter9-1-4/config-repo
+          username: 872626491@qq.com
+          password: woaini198821@@@
+server:
+  port: 7001

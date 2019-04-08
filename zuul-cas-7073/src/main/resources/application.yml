@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: zuul-cas
+  security:
+    user:
+      password: user
+
+server:
+  port: 7073
+
+#user:
+  #  ignored: /
+  #  sessions: never   # session²ßÂÔ
+
+security:
+  oauth2:
+    sso:
+      loginPath: /login   # µÇÂ¼Â·¾¶
+    client:
+      clientId: 239863f072a2c522f621
+      clientSecret: ce5b6def57f00a3c280b2588b77528c45a1f7c13
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+    resource:
+      userInfoUri: https://api.github.com/user
+      preferTokenInfo: false
+#suixinlu2017
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7071/eureka/
+
+zuul:
+  ignored-services: '*'
+  routes:
+    auth-server:
+      path: /uaa/**
+      serviceId: auth-server
+      sensitiveHeaders:
+      strip-prefix: false
+
+    resource-server:
+      path: /demo/**
+      serviceId: resource-server
+      sensitiveHeaders:
+      strip-prefix: false
+    api-a:
+      path: /api-a/**
+      service-id: service-A
+    api-r:
+      path: /api-ribbon/**
+      service-id: RIBBON
+    api-b:
+      path: /api-b/**
+      service-id: service-B
+logging:
+  config: classpath:logback.xml
